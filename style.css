@@ -1,0 +1,19 @@
+.header{
+  height: 200px;
+  background-color:lightpink;
+}
+.container{
+  display: grid;
+  padding: 20px;
+  background-color:#DCD0FF;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(6,1fr);
+  grid-gap: 20px;
+  height: 2500px;
+}
+.item{
+  align-self: center;
+  width: 300px;
+  height: 200px;
+  background-color: bisque;
+  border: lightsalmon 2px solid;
